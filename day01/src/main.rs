@@ -5,7 +5,7 @@ fn main() {
 
     let vec: Vec<i32> = input
         .split_whitespace()
-        .map(|x| x.parse::<i32>().unwrap()) 
+        .map(|x| x.parse::<i32>().unwrap())
         .collect();
 
     let mut ans = 0;
